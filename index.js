@@ -6,4 +6,4 @@ function destructivelyPrependKitten(name){kittens.unshift(name);return kittens}
 function destructivelyRemoveLastKitten(){kittens.pop(); return kittens}
 function destructivelyRemoveFirstKitten(){kittens.shift(); return kittens}
 function appendKitten(name){kittens = [...kittens, name];return kittens}
-function prependKiten(name){kittens = [name, kittens...]
+function prependKiten(name){kittens = [name, ...kittens]; return kittens}
